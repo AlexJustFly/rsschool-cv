@@ -19,3 +19,8 @@
 + *[Second example](https://github.com/AlexJustFly/Restaurant-site-model "Restaurant")* <br>
 + *[Third example](https://github.com/AlexJustFly/Wedding-site-model "Wedding")* <br>
 ***
+**6.** Don't have any real practical expirience except my "homeworks" from paragraph 5
+***
+**7.** And again... don't have any real education except free online lessons like w3schools, learn.javascript and many other from youtube and google
+***
+**8.** *Pre-intermediate*
