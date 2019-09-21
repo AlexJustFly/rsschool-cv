@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css?family=Charm|Raleway|Tangerine");
+* {
+  margin: 0;
+  padding: 0;
+  
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+  color: grey;
+
+  background: url(../img/bg.png) rgba(200, 200, 200, 0.5);
+}
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+main {
+  height: 100%;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  overflow: auto;
+}
+.parallax {
+  height: 40%;
+
+  background: grey no-repeat center fixed;
+  background-size: cover;
+  background-blend-mode: overlay;
+  opacity: 0.5;
+}
+.my-name {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+  background-color: whitesmoke;
+}
+.my-name .my-photo {
+  width: 30%;
+}
+.my-name .my-photo img {
+  width: 100%;
+
+  object-fit: cover;
+}
+.my-name .text {
+  width: 50%;
+}
+.my-name .text .name {
+  padding: 10px;
+
+  font-family: 'Tangerine', cursive;
+  font-size: 2rem;
+}
+.my-name .text .contacts {
+  font-family: 'Charm', cursive;
+}
+.parallax-1 {
+  background-image: url(../img/ser1.jpg);
+}
+.my-goal {
+  height: 80%;
+  
+  color: #ddd;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+  text-align: justify;
+
+  background-color: #282e34;
+}
+.my-goal .wrapper {
+  width: 80%;
+
+  font-size: 1rem;
+}
+.parallax-2 {
+  background-image: url(../img/ser2.jpg);
+}
+.my-skills {
+  height: 60%;
+
+  color: #ddd;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+
+  background-color: #282e34;
+}
+.my-skills .wrapper {
+  width: 80%;
+
+  font-size: 1rem;
+}
+.my-skills .wrapper .header {
+  padding: 20px 0;
+
+  text-align: left;
+}
+.my-skills .wrapper .list {
+  position: relative;
+  left: 100px;
+
+  text-align: left;
+}
+.parallax-3 {
+  background-image: url(../img/lang.png);
+  background-size: contain;
+}
+.my-examples {
+  height: 40%;
+
+  color: #ddd;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+
+  background-color: #282e34;
+}
+.my-examples .wrapper .header {
+  padding: 10px;
+}
+.my-examples .wrapper .list-wrapper .list {
+  padding: 15px;
+
+  list-style-type: none;
+}
+.my-examples .wrapper .list-wrapper .list .list-item {
+  padding: 5px;
+  display: inline-block;
+}
+.my-examples .wrapper .list-wrapper .list .list-item .list-item_link {
+  padding: 10px;
+
+  color: #ddd;
+  text-decoration: none;
+
+  border: 1px solid #ddd;
+
+  transition: 0.3s;
+}
+.my-examples .wrapper .list-wrapper .list .list-item .list-item_link:hover {
+  color: #282e34;
+
+  background-color: #ddd;
+  
+  border-color: white;
+}
+.parallax-4 {
+  background-image: url(../img/code.png);
+  background-size: cover;
+}
+.my-exp-ed {
+  height: 40%;
+
+  color: #ddd;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+
+  background-color: #282e34;
+}
+.my-exp-ed .wrapper {
+  width: 80%;
+}
+.my-exp-ed .wrapper .header {
+  padding: 10px;
+}
+.my-exp-ed .wrapper .text {
+  padding: 10px;
+}
+.my-english {
+  color: #ddd;
+  height: 30%;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+
+  background-color: #282e34;
+}
+.my-english .wrapper .header {
+  padding: 10px;
+}
+.my-contacts {
+  color: #ddd;
+
+  background-color: #282e34;
+}
+.parallax-5 {
+  background-image: url(../img/eng.png);
+  background-size: cover;
+}
+.finish {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  background-color: whitesmoke;
+}
+.finish .text {
+  font-family: 'Tangerine', cursive;
+  font-size: 3rem;
+}
